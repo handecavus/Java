@@ -23,5 +23,9 @@ public class _04_EscapeCharacters {
         System.out.println("Merhaba\\Dünya");   // Merhaba\Dünya
         System.out.println("Merhaba\rDünya");   // Dünya
 
+
+        System.out.println(" \"Hello \", \"World  \\ /\"");   // "Hello ", "World  \ /"
+
+
     }
 }
