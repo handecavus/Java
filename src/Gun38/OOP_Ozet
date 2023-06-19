@@ -1,0 +1,19 @@
+OOP:
+Encapsulation: (Kapsülleme) private, get, set
+
+Inheritance  : (Kalıtım) (extends) birçok classın ortak kısımları için
+               bir parent class yapıp, sonraki classları bu classdan
+               türetilmesine KALITIM demiştik. (dede-baba-torun ilişkisi) miras
+
+Polymorphism : (Çok şekillilik-şizofren): bir parent class a veya ortak interface
+               sahip classların, istenildiğinde kendi tipinde, istenildiğinde parentin
+               tipinde olabilmesine, böylece aynı metodların kullanılmasına imkan vermesidir.
+               (kedi köpek)
+
+Interface    : Birden çok classın, aynı şablondan metodlarını üretmesini zorunlu kılan, ve
+               böylece yazılımı planlaştıran yöntemdi. Sadece metod isimlerinin olduğu
+               şablon (toyotaPrius)
+
+Abstract     : Bir tane interface ve bir tane parent class olacaksa, interface+parent class
+               kullanma yerine, her ikisini içine alan tek bir class tipidir.
+               Interface+Inheritance => abstract class -> 2si bir arada
